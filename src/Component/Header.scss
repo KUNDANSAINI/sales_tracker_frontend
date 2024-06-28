@@ -1,0 +1,40 @@
+#header{
+    height: 100%;
+    background: rgb(51, 129, 153);
+    padding: 20px 0px;
+    margin-bottom: 10px;
+
+    .navbar-brand{
+        text-transform: capitalize;
+    }
+
+    a{
+        color: black;
+    }
+
+    i{
+        width: 40px;
+        font-size: 25px;
+        cursor: pointer;
+    }
+}
+
+#userheader{
+    height: 100%;
+    background: rgb(51, 129, 153);
+    padding: 20px 0px;
+    margin-bottom: 10px;
+
+    a{
+        color: black;
+    }
+
+    .navbar-brand{
+        text-transform: capitalize;
+    }
+
+    i{
+        font-size: 25px;
+        cursor: pointer;
+    }
+}

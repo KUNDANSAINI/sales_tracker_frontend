@@ -1,0 +1,37 @@
+#login{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#login #form{
+    width: 400px;
+    height: auto;
+    padding: 40px;
+    background: #f0f0f0;
+    border-radius: 10px;
+
+    h1{
+        text-align: center;
+        margin-bottom: 30px;
+        font-size: 50px;
+    }
+    
+    form{
+    a{
+        float:right;
+        text-decoration:none;
+        margin-bottom: 5px;
+    }
+
+    a:hover{
+        text-decoration: underline;
+    }
+
+    input{
+        background: transparent;
+        margin-top: 10px;
+    }
+}
+}

@@ -1,0 +1,21 @@
+#userdashbord{
+    h1{
+        text-align: center;
+    }
+
+    .col-md-4{
+        margin-top: 20px;
+    }
+
+    .card{
+        background: whitesmoke;
+        position: relative;
+        top: 0px;
+        transition: top 0.5s;
+    }
+
+    .card:hover{
+        position: relative;
+        top: -15px;
+    }
+}
