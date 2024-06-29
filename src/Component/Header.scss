@@ -1,40 +1,104 @@
-#header{
+#header {
     height: 100%;
-    background: rgb(51, 129, 153);
-    padding: 20px 0px;
+    background: #ffffff;
+    padding: 20px 0;
     margin-bottom: 10px;
 
-    .navbar-brand{
-        text-transform: capitalize;
-    }
+    .navbar {
+        padding: 0;
 
-    a{
-        color: black;
-    }
+        .navbar-brand {
+            display: flex;
+            align-items: center;
+            text-transform: capitalize;
 
-    i{
-        width: 40px;
-        font-size: 25px;
-        cursor: pointer;
+            img {
+                width: 150px; /* Adjusted for better visibility */
+                height: auto;
+                margin-right: 10px;
+            }
+        }
+
+        .nav-link {
+            color: black;
+            &:hover {
+                color: #ffffff;
+                background-color: #E61B77;
+                border-radius: 5px;
+            }
+        }
+
+        .navbar-toggler {
+            border-color: rgba(0,0,0,.1);
+
+            .bi-list {
+                font-size: 1.25rem;
+                margin-right: 2px;
+            }
+        }
+
+        .bi-box-arrow-right {
+            font-size: 1.5rem;
+            cursor: pointer;
+            color: black;
+            &:hover {
+                color: #ffffff;
+            }
+        }
     }
 }
 
-#userheader{
+#userheader {
     height: 100%;
     background: rgb(51, 129, 153);
-    padding: 20px 0px;
+    padding: 20px 0;
     margin-bottom: 10px;
 
-    a{
-        color: black;
-    }
+    .navbar {
+        padding: 0;
 
-    .navbar-brand{
-        text-transform: capitalize;
-    }
+        .navbar-brand {
+            text-transform: capitalize;
+        }
 
-    i{
-        font-size: 25px;
-        cursor: pointer;
+        .nav-link {
+            color: black;
+            &:hover {
+                color: #ffffff;
+                background-color: #338199;
+                border-radius: 5px;
+            }
+        }
+
+        .navbar-toggler {
+            border-color: rgba(0,0,0,.1);
+
+            .bi-list {
+                font-size: 1.25rem;
+            }
+        }
+
+        .bi-box-arrow-right {
+            font-size: 1.5rem;
+            cursor: pointer;
+            color: black;
+            &:hover {
+                color: #ffffff;
+            }
+        }
     }
+}
+
+.Company-Logo {
+    width: 150px; /* Adjusted for better visibility */
+    height: auto;
+    margin-right: 10px;
+}
+
+
+#userheader {
+    height: 100%;
+    background: #ffffff;
+    padding: 20px 0;
+    margin-bottom: 10px;
 }

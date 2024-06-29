@@ -1,10 +1,12 @@
 import { Link, useNavigate } from 'react-router-dom'
 import './Header.scss'
+import logo from './Auth/company_logo.jpg';
 
 
 function UserHeader() {
 
-    const username = localStorage.getItem('loginName')
+    const email = localStorage.getItem('loginName')
+    const username = email ? email.split('@')[0] : '';
 
     const navigate = useNavigate()
 
@@ -22,6 +24,7 @@ function UserHeader() {
                     <div className='col-md-12'>
                         <nav className="navbar navbar-expand-lg">
                             <div className="container-fluid">
+                            <img src={logo} className='Company-Logo' alt="Company Logo" />
                                 <Link className="navbar-brand" to="/dashbord">{username}</Link>
                                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                                 <i className="bi bi-list fs-5"></i>

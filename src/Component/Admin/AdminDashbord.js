@@ -3,6 +3,7 @@ import Header from '../Header';
 import axios from 'axios'
 import { toast } from 'react-toastify';
 import { useNavigate } from 'react-router-dom';
+import Footer from '../Footer';
 
 
 
@@ -116,6 +117,7 @@ function AdminDashbord() {
                     ))
                 }
             </div>
+            <Footer/>
         </section>
     );
 }
